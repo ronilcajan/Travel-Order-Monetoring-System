@@ -2,7 +2,9 @@
 Travel Order Monitoring System
 ###################
 
-![My animated logo](assets/img/login.png)
+.. image:: screenshots/dashboard.png
+    :alt: Dashboard screenshot
+    :align: center
 
 This is a web-based system for managing travel orders within an organization, 
 built using the CodeIgniter 3 PHP framework. It allows authorized users to submit 
