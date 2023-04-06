@@ -2,8 +2,8 @@
 Travel Order Monitoring System
 ###################
 
-.. image:: screenshots/dashboard.png
-    :alt: Dashboard screenshot
+.. image:: assets/img/login.png
+    :alt: Login screenshot
     :align: center
 
 This is a web-based system for managing travel orders within an organization, 
