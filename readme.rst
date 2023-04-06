@@ -2,10 +2,6 @@
 Travel Order Monitoring System
 ###################
 
-.. image:: assets/img/login.png
-    :alt: Login screenshot
-    :align: center
-
 This is a web-based system for managing travel orders within an organization, 
 built using the CodeIgniter 3 PHP framework. It allows authorized users to submit 
 travel orders, track their status, and generate reports on travel expenses and related data. 
@@ -66,6 +62,16 @@ Once the system is installed and configured, you can use it to manage travel ord
 * Position management: add, edit, and delete positions, and assign users to positions.
 * Travel order submission and approval workflows: users submit travel order requests, supervisors approve or reject requests, and travelers update orders with actual expenses and receipts.
 
+*********
+Screenshot
+*********
+.. image:: assets/img/login.png
+    :alt: Login screenshot
+    :align: center
+
+.. image:: assets/img/admin.png
+    :alt: Dashboard
+    :align: center
 
 *********
 License
