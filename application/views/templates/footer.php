@@ -32,13 +32,11 @@ var SITE_URL = "<?php echo site_url(); ?>";
 <script src="<?= site_url() ?>assets/plugins/components/datatables/Buttons-1.6.1/js/buttons.colVis.min.js"></script>
 <script src="<?= site_url() ?>assets/plugins/components/datatables-responsive/js/dataTables.responsive.min.js"></script>
 
-<script src="<?= site_url() ?>assets/plugins/components/switchery/dist/switchery.min.js"></script>
-
 <script src="<?= site_url() ?>assets/plugins/components/custom-select/custom-select.min.js" type="text/javascript">
 </script>
 <script src="<?= site_url() ?>assets/plugins/components/bootstrap-select/bootstrap-select.min.js"
     type="text/javascript"></script>
-<!-- Bootstrap Notify -->
+<!-- Bootstrap Notify --> 
 <script src="<?= site_url() ?>assets/js/jquery.PrintArea.js" type="text/JavaScript"></script>
 
 <script src="<?= site_url() ?>assets/plugins/components/raphael/raphael.js"></script>
