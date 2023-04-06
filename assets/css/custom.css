@@ -1,0 +1,177 @@
+.field-icon {
+	float: right;
+	margin-left: -25px;
+	margin-top: -33px;
+	margin-right: 5px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+.login-register {
+	background: #192135;
+}
+
+.login-box {
+	background-color: #192135;
+	margin-top: 5%;
+}
+
+.login-box .white-box {
+	background-color: #202940;
+	box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+	border: 1px solid #202940;
+}
+
+.login-box input {
+	color: #fff;
+}
+
+.field-icon {
+	float: right;
+	margin-left: -25px;
+	margin-top: -27px;
+	margin-right: 5px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.modal-xl {
+		width: 90%;
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 767px) {
+	.fix-header .sidebar {
+		height: 100%;
+	}
+}
+
+@page {
+	size: A4; /* DIN A4 standard, Europe */
+	margin: 5mm;
+}
+/* @media screen {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		font-family: "Calibri" !important;
+		font-size: 15px;
+	}
+} */
+@media print {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		font-family: "Calibri" !important;
+	}
+	#footerPage {
+		clear: both;
+		page-break-after: always;
+	}
+	.hide,
+	.dt-buttons,
+	.dataTables_filter,
+	.dataTables_info,
+	.dataTables_paginate,
+	.noPrint {
+		display: none;
+	}
+	#brgy_info {
+		display: block !important;
+	}
+	#qrcode {
+		border: 1px solid #ccc2c7;
+		display: block;
+	}
+}
+
+#frontpage {
+	width: 86mm;
+	height: 70mm;
+	border: 1px solid #ccc2c7;
+	border-radius: 10px;
+	padding: 5px;
+}
+#backpage {
+	width: 86mm;
+	height: 70mm;
+	border: 1px solid #ccc2c7;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#cert_cont {
+	border-top: 6px solid rgb(189, 189, 3);
+	border-left: 6px solid rgb(189, 189, 3);
+	border-right: 6px solid rgb(189, 189, 3);
+}
+#cert_sidebar {
+	height: 830px;
+}
+#cert_body {
+	position: relative; 
+	height: 830px;
+	/* border-left: 2px solid black; */
+}
+#cert_remarks {
+	border-left: 6px solid rgb(189, 189, 3);
+	border-bottom: 6px solid rgb(189, 189, 3);
+	border-right: 6px solid rgb(189, 189, 3);
+}
+#brgy_logo {
+	position: absolute;
+	filter: grayscale(0.2);
+	opacity: 0.4;
+	top: 50px;
+	left: 40px;
+}
+#brgy_logo1 {
+	position: absolute;
+	filter: grayscale(100%);
+	opacity: 0.4;
+	top: 28%;
+	left: 20%;
+}
+.id_settings {
+	position: absolute;
+	filter: grayscale(0.2);
+	opacity: 0.1;
+	top: 0;
+	left: 45px;
+}
+#cert_remarks {
+	position: relative;
+	height: 160px;
+}
+#flag {
+	width: 350px !important;
+	position: absolute;
+	bottom: -142px;
+	left: 0;
+}
+/* #flag,
+#motto {
+	margin-top: -10px;
+} */
+#cert_footer {
+	position: absolute;
+	bottom: 0;
+}
+
+.modal .modal-header {
+	background-color: rgb(0, 114, 172);
+}
+.modal .modal-title {
+	color: #fff !important;
+}
